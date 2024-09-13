@@ -1,0 +1,7 @@
+__pycache__
+.idea
+
+/datasets
+/logs
+/secrets
+/lightning_logs

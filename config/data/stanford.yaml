@@ -1,0 +1,3 @@
+_target_: leap.data.StanfordDataModule
+root_dir: datasets/stanford
+raw_root_dir: datasets/stanford_raw

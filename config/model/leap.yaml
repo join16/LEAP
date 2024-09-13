@@ -1,0 +1,21 @@
+_target_: leap.models.LEAP
+
+input_size: 16
+output_size: 64
+stem_dim: 32
+wall_size: 2
+T: 512
+crop_window_size: 256
+
+waveconv_params:
+  sigma: 0.27
+  wavelength_params: [ 1.5, 1.25, 1.0, 2.0, 2.5, 0.9, 0.8 ]
+  normalize: true
+  threshold: 0.1
+
+encoder_params: null
+decoder_params:
+  blocks:
+    - [ 64, [ 4, 1 ], 2 ]
+    - [ 64, [ 2, 1 ], 2 ]
+  add_block_coords: true

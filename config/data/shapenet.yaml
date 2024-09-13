@@ -1,0 +1,8 @@
+_target_: leap.data.ShapeNetDataModule
+
+root_dir: datasets/shapenet
+batch_size: 8
+eval_batch_size: 4
+num_workers: 4
+
+is_confocal: true

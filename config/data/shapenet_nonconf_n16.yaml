@@ -1,0 +1,4 @@
+_base_: shapenet
+root_dir: datasets/shapenet_nonconf
+subsample: [1, 4]
+is_confocal: false

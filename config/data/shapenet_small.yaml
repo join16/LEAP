@@ -1,0 +1,3 @@
+_base_: shapenet
+subsample: [1, 2]
+center_crop

@@ -1,0 +1,10 @@
+_base_: _train_base
+
+data:
+  _base_: data/shapenet_n16
+
+model:
+  _base_: model/leap_n16
+
+solver:
+  _base_: solver/nlos_ae

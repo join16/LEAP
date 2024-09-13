@@ -1,0 +1,17 @@
+output_dir: logs
+seed: 123456
+trainer:
+  max_epochs: 160
+  strategy: ddp
+  check_val_every_n_epoch: 4
+  log_every_n_steps: 100
+  precision: 16-mixed
+
+wandb:
+  secret_path: secrets/wandb.yaml
+  project: nlos-leap
+
+checkpoint:
+  save_dir: checkpoints
+  save_top_k: 1
+  mode: max

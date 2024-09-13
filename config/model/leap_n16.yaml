@@ -1,0 +1,9 @@
+_base_: leap
+encoder_params:
+  blocks:
+    - [ 64, 0 ]
+    - [ 64, [ 2, 1 ] ]
+    - [ 128, [ 2, 1 ] ]
+    - [ 256, [ 2, 1 ] ]
+    - [ 256, 0 ]
+  add_block_coords: true

@@ -1,0 +1,8 @@
+_target_: leap.solvers.NLOSAutoEncoderSolver
+
+lr: 1e-4
+lr_step_size: 100
+lr_gamma: 0.1
+weight_decay: 1e-2
+
+target_wavelength: 1.5
